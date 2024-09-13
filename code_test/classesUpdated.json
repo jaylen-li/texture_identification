@@ -1,0 +1,6 @@
+{"classes": [{"title": "Water", "shape": "polygon", "color": "#e2a929", "geometry_config": {}}, 
+{"title": "Land_(unpaved_area)", "shape": "polygon", "color": "#8429f6", "geometry_config": {}}, 
+{"title": "Road", "shape": "polygon", "color": "#6ec1e4", "geometry_config": {}}, 
+{"title": "Building", "shape": "polygon", "color": "#3c1098", "geometry_config": {}}, 
+{"title": "Vegetation", "shape": "polygon", "color": "#fedd3a", "geometry_config": {}}, 
+{"title": "Unlabeled", "shape": "polygon", "color": "#9B9B9B", "geometry_config": {}}], "tags": []}

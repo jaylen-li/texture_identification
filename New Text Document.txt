@@ -1,0 +1,12 @@
+Use 'environment' to set up the conda environment
+Cuda/cuDNN version is 11.2
+
+To get data ready: Firstly, in "pre-processing" folder: run 'crop_image_combined' to extract patches from the original images that are stored 
+in 'codetest' folder. Then run 'organize' to make all items restructured so it can be divded 
+in a 5-fold format. Next, run '5-fold' to create training, validation and testing set. 
+Finally, as there are some imbalance in the dataset, run 'balance_dataset' to apply augmentations 
+and create sufficient items. In this way, images are good to train the model.
+
+To train the model, go to "geo_train" folder and run 'train_multi', parameters can be changed using 
+'config'.
+
